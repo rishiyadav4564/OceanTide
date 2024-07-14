@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/bganimation.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <title>OceanTide</title>
+</head>
+
+<body>
+    <header>
+        <section class="topbar">
+            <div class="navbar">
+                <div class="leftnav">
+                    <img id="ologo" src="images/logo/oceanlogo 2.png" alt="weblogo">
+                    <h1>Ocean Tide</h1>
+                </div>
+                <div class="rightnav">
+                    <a href="index.html">HOME</a>
+                    <a href="about.html">ABOUT</a>
+                    <a href="services.html">SERVICES</a>
+                    <a href="oportfolio.html">PORTFOLIO</a>
+                    <a class="active" href="contact.html">CONTACT US</a>
+                    <span>
+                        <a href="#"> <i class="ri-instagram-line"></i>
+                            <a href="#"> <i class="ri-youtube-line"></i></a>
+                            <a href="#"> <i class="ri-linkedin-fill"></i></a></span>
+                    <input type="checkbox" id="check" onchange="navheight()">
+                    <label for="check" class="menu">
+                        <i class="ri-menu-3-line"></i>
+                    </label>
+                </div>
+
+            </div>
+            <div class="rightnav2">
+                <a href="index.html">HOME</a>
+                <a href="about.html">ABOUT</a>
+                <a href="services.html">SERVICES</a>
+                <a href="oportfolio.html">PORTFOLIO</a>
+                <a href="contact.html">CONTACT US</a>
+                <span>
+                    <a href="#"> <i class="ri-instagram-line"></i>
+                        <a href="#"> <i class="ri-youtube-line"></i></a>
+                        <a href="#"> <i class="ri-linkedin-fill"></i></a></span>
+            </div>
+        </section>
+    </header>
+
+    <section class="contact-mainview">
+        <div class="cmv-left">
+            <h2>Contact Us</h2>
+            <h4>Connect With Us Today To Bring Your Ideas TO LIfe</h4>
+        </div>
+        <div id="conright4" class="cmv-right">
+            <div class="cmvform">
+
+                <form id="contactForm">
+                    <div>
+                        <label for="name">NAME</label><br>
+                        <input type="text" id="name" name="name" required><br>
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div>
+                        <label for="message">HOW CAN WE HELP YOU?</label><br>
+                        <textarea id="message" name="message" rows="4" required></textarea><br>
+                    </div>
+                    <div>
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="absolute">
+            <div class="absolute inset-0 justify-center">
+                <div class="bg-shape2 bg-teal opacity-50 bg-blur"></div>
+                <div class="bg-shape3 bg-primary opacity-50 bg-blur"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="homecta">
+
+        <h1>Equire Now To Elevate</h1>
+        <h1>Your Brand With Video</h1>
+    </div>
+    <hr id="hrlines">
+
+    <footer>
+        <section class="footer ">
+            <div class="ft1">
+                <img id="ologo" src="images/logo/oceanlogo 2.png" alt="">
+                <a href=""> OceanTide</a>
+
+            </div>
+            <div class="ft2">
+                <h3>ADDRESS</h3>
+                <p>Ocean Tide LLP
+                    123 Seaview Avenue Marina Heights,
+                    Coastal City Seabreeze District, India</p>
+                <h2>8652223476/9112223476</h2>
+                <i class="ri-mail-line"></i>
+                <i class="ri-global-fill"></i>
+                <i class="ri-phone-line"></i>
+
+                <h3>FOLLOW US ON</h3>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-youtube-line"></i>
+                <i class="ri-linkedin-fill"></i>
+
+            </div>
+            <div class="ft3">
+                <h3>
+                    QUICK LINKS
+                </h3>
+                <a href='index.html'>Home</a>
+                <a href='about.html'>About Us</a>
+                <a href='#'>Blogs</a>
+                <a href='#'>Tearms and Condition</a>
+                <a href='#'>Privacy Policy</a>
+            </div>
+            <div class="ft4">
+                <h3>SUPPORT</h3>
+                <a href='index.html'>Contact Us</a>
+                <a href='about.html'>Register Service Request</a>
+                <a href='gallery.html'>Register Product For Warranty</a>
+                <a href='realityp.html'>Download Drivers</a>
+                <a href='realityp.html'>Download Online Teaching Guide</a>
+                <a href='realityp.html'>FAQs</a>
+            </div>
+        </section>
+
+    </footer>
+
+
+    <script src="jsofanimation\gsap-public\gsap-public\minified\gsap.min.js"></script>
+    <script src="jsofanimation\gsap-public\gsap-public\minified\ScrollTrigger.min.js"></script>
+    <script src="jsofanimation\gsap-public\gsap-public\minified\Draggable.min.js"></script>
+
+    <!--<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/Draggable.min.js"></script> -->
+    <script src="jsofanimation/contactanime.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>
