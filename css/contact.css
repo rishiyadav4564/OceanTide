@@ -1,0 +1,183 @@
+.contact-mainview {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin: 6vw 8vw 10vw 8vw;
+}
+
+.cmv-left {
+    text-align: left;
+}
+
+.cmv-left h2 {
+    font-size: 5.5vw;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+    margin-bottom: 2px;
+}
+
+.cmv-left h4 {
+    font-size: 1.5vw;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+}
+
+.cmv-right {
+    padding: 2px;
+}
+
+.cmvform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-weight: 100;
+
+
+
+}
+
+.cmvform form {
+    border: 1px solid #fff;
+    font-family: "Nunito", sans-serif;
+    width: 22vw;
+    margin: 0 auto;
+    background: linear-gradient(to right bottom, rgba(0, 0, 0, 0.4), rgba(255, 255, 255, 0.2));
+    padding: 3.5vw;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cmvform label {
+
+    font-weight: 300;
+    font-size: 1.3vw;
+    font-family: "Nunito", sans-serif;
+    letter-spacing: 3px;
+}
+
+.cmvform input[type="text"],
+.cmvform input[type="email"],
+.cmvform textarea {
+    background: transparent;
+    width: 100%;
+    padding: 0.7vw;
+
+
+    font-weight: 100;
+    font-size: 1.5vw;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0.4vw 0vw 1.2vw 0vw;
+}
+
+.cmvform textarea {
+    height: 100px;
+}
+
+.cmvform button[type="submit"] {
+    width: 100%;
+    font-family: "Nunito", sans-serif;
+    background: #ffffff;
+    border: none;
+    color: #000000;
+
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.4vw;
+    letter-spacing: 4px;
+    transition: 0.5s ease;
+}
+
+.cmvform button[type="submit"]:hover {
+    background-color: #031730;
+    color: #fff;
+}
+
+@media(max-width:800px) {
+    .contact-mainview {
+        flex-direction: column;
+    }
+
+    .cmv-left h2 {
+        font-size: 10.5vw;
+    }
+
+    .cmvform {
+        margin: 5vw 0vw 0vw 0vw;
+    }
+
+    .cmv-left h4 {
+        font-size: 3.5vw;
+    }
+
+    .cmvform label {
+
+        font-size: 2.3vw;
+    }
+
+    .cmvform button[type="submit"] {
+        font-size: 2.4vw;
+    }
+
+    .cmvform form {
+        width: 40vw;
+    }
+
+}
+
+
+/*contact cta start*/
+
+.homecta {
+    margin: 2vw 4vw 4vw 4vw;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    position: relative;
+
+}
+
+.homecta h1 {
+    font-size: 4vw;
+    font-weight: 300;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.homecta h1:last-child::after {
+    margin: 1vw 0vw 0vw 25vw;
+    content: " ";
+    height: 2px;
+    width: 40vw;
+    background: linear-gradient(to right, #f32170,
+            #ff6b08, #cf23cf, #eedd44);
+
+    display: block;
+}
+
+@media(max-width:430px) {
+    .homecta h1 {
+        font-size: 6.5vw;
+    }
+
+    .homecta h1:last-child::after {
+        margin: 1vw 0vw 0vw 16vw;
+
+        height: 1px;
+        width: 58vw;
+    }
+}
+
+/* home cta end */
+hr {
+    width: 80%;
+    margin: 10vw 0vw 0vw 8vw;
+    color: #ffffff;
+}
